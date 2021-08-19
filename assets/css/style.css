@@ -39,6 +39,8 @@ header h2 {
     background-color: black;
     width: 20rem;
     padding: 2rem 3rem;
+    position: absolute;
+    top: 9rem;
 }
 
 .banner-text h2 {
@@ -65,16 +67,27 @@ nav li {
     padding: 0.75rem 0;
 }
 
-
+.products .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 0;
+}
 
 .card {
     width: 30%;
     border: 4px solid black;
 }
 
-.card img {
+.cardimg {
     height: 9rem;
-    padding: 2rem;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img {
+    max-width: 8rem;
 }
 
 .card h4 {
@@ -84,8 +97,23 @@ nav li {
     padding: 0.5rem 0;
 }
 
+.contact .container {
+    display: flex;
+    justify-content: space-between;
+}
+
 .contact section {
     width: 35%;
+    margin-bottom: 4rem;
+}
+
+.contact h4 {
+    background-color: black;
+    padding: 1rem 0 1rem 2rem;
+}
+
+.contact p {
+    color: black;
 }
 
 footer {
